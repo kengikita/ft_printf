@@ -15,5 +15,6 @@ char	*ft_long_length(unsigned long long ull, int base);
 char	*ft_itoa(int n);
 int		ft_hexa(unsigned int num, int type);
 int		ft_digit(int a);
+char	*ft_strdup(char *src);
 
 #endif
