@@ -1,3 +1,5 @@
+#include "ft_printf.h"
+
 static char	*ft_strcpy(char *dst, const char *src)
 {
 	size_t	i;

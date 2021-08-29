@@ -3,6 +3,7 @@
 # include <stdarg.h>
 # include <unistd.h>
 # include <stdlib.h>
+# include <stddef.h>
 
 int		ft_printf(char const *str, ...);
 int		ft_putchar(char a);
