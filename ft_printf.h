@@ -1,6 +1,6 @@
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
-# include <strarg.h>
+# include <stdarg.h>
 # include <unistd.h>
 # include <stdlib.h>
 
