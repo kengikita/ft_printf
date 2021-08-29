@@ -8,7 +8,7 @@ int		ft_printf(char const *str, ...);
 int		ft_putchar(char a);
 int		ft_putstring(char *str);
 int		ft_strlen(const char *str);
-int		ft_tolower(int str);
+char	*ft_tolower(char *str);
 int		ft_pointer(unsigned long long ull);
 char	*ft_long_length(unsigned long long ull, int base);
 char	*ft_itoa(int n);
