@@ -11,7 +11,7 @@ int	ft_pointer(unsigned long long ull)
 		count += ft_putstring("0x");
 		return (count);
 	}
-	pointer = ft_long_length(ull);
+	pointer = ft_long_length(ull, 16);
 	pointer = ft_tolower(pointer);
 	count += ft_putstring("0x") + ft_putstring(pointer);
 	free(pointer);
