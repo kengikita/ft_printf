@@ -2,7 +2,6 @@
 
 int	ft_unsigned_int(unsigned int num)
 {
-	char	*str;
 	int		count;
 
 	count = 0;
