@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-int	ft_usint(unsigned int num)
+int	ft_unsigned_int(unsigned int num)
 {
 	char	*str;
 	int		count;
