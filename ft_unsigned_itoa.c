@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-char	*ft_unsigned_itoa(unsigned int num)
+int	ft_unsigned_itoa(unsigned int num)
 {
 	char	*str;
 	int		count;

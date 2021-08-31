@@ -17,6 +17,6 @@ int		ft_hexa(unsigned int num, int type);
 int		ft_digit(int a);
 char	*ft_strdup(char *src);
 int		ft_unsigned_int(unsigned int num);
-char	*ft_unsigned_itoa(unsigned int num);
+int		ft_unsigned_itoa(unsigned int num);
 
 #endif

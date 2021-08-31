@@ -12,8 +12,6 @@ int	ft_unsigned_int(unsigned int num)
 		count += ft_putchar('0');
 		return (count);
 	}
-	str = ft_unsigned_itoa(num);
-	count += ft_putstring(str);
-	free(str);
+	count = ft_unsigned_itoa(num);
 	return (count);
 }
