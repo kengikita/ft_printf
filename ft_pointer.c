@@ -8,7 +8,7 @@ int	ft_pointer(unsigned long long ull)
 	count = 0;
 	if (ull == 0)
 	{
-		count += ft_putstring("0x");
+		count += ft_putstring("0x0");
 		return (count);
 	}
 	pointer = ft_long_length(ull, 16);
