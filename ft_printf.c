@@ -9,7 +9,7 @@ static int	ft_print_special(va_list args, char const *str, int position)
 		count += ft_putchar(va_arg(args, int));
 	else if (str[position + 1] == 's')
 		count += ft_putstring(va_arg(args, char *));
-	else if (str[position + 1] == 'd')
+	else if (str[position + 1] == 'd' || str[position + 1] == 'i')
 		count += ft_digit(va_arg(args, int));
 	else if (str[position + 1] == 'p')
 		count += ft_pointer(va_arg(args, unsigned long long));
