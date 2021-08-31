@@ -7,7 +7,7 @@ int	ft_putstring(char *str)
 	length = 0;
 	if (!str)
 	{
-		str = NULL;
+		str = "(null)";
 		write(1, str, ft_strlen(str));
 	}
 	else
