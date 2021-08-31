@@ -8,6 +8,7 @@ int	ft_putstring(char *str)
 	if (!str)
 	{
 		str = "(null)";
+		length = ft_strlen(str);
 		write(1, str, ft_strlen(str));
 	}
 	else
